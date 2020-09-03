@@ -1,0 +1,46 @@
+{
+    "name": "jfvoliveira/blade-boxicons",
+    "description": "A package to easily make use of Boxicons in your Laravel Blade views.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João Oliveira",
+            "email": "joao@joliveira.pt",
+            "homepage": "https://joliveira.pt",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/jfvoliveira/blade-boxicons",
+    "keywords": ["Laravel", "Boxicons", "Blade UI Kit", "Laravel"],
+    "require": {
+        "php": "^7.2",
+        "blade-ui-kit/blade-icons": "^0.4.0",
+        "illuminate/support": "^7.14"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jfvoliveira\\BladeBoxicons\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jfvoliveira\\BladeBoxicons\\BladeBoxiconsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
