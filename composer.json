@@ -11,7 +11,7 @@
         }
     ],
     "homepage": "https://github.com/jfvoliveira/blade-boxicons",
-    "keywords": ["Laravel", "Boxicons", "Blade UI Kit", "Laravel"],
+    "keywords": ["Laravel", "Boxicons", "Blade UI Kit"],
     "require": {
         "php": "^7.2",
         "blade-ui-kit/blade-icons": "^0.4.0",
