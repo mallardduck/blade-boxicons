@@ -12,7 +12,7 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 ## Installation
 
 ```bash
-composer require jfvoliveira/blade-boxicons
+composer require mallardduck/blade-boxicons
 ```
 
 ## Usage
