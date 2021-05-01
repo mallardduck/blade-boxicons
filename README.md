@@ -71,8 +71,8 @@ Check out the [CHANGELOG](CHANGELOG.md) in this repository for all the recent ch
 
 ## Maintainers
 
-Blade Boxicons is developed and maintained by [João Oliveira](https://joliveira.pt).
-You can follow me on [Twitter](https://twitter.com/jfvoliveira).
+Blade Boxicons was originally developed and maintained by [João Oliveira](https://joliveira.pt).
+This fork has been adopted by [Dan Pock](https://opendor.me/@mallardduck).
 
 Blade Icons is developed and maintained by [Dries Vints](https://driesvints.com).
 
