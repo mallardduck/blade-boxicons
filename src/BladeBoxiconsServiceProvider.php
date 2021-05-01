@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace jfvoliveira\BladeBoxicons;
+namespace MallardDuck\BladeBoxicons;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Support\ServiceProvider;

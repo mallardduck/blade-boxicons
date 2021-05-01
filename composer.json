@@ -1,5 +1,5 @@
 {
-    "name": "jfvoliveira/blade-boxicons",
+    "name": "mallardduck/blade-boxicons",
     "description": "A package to easily make use of Boxicons in your Laravel Blade views.",
     "keywords": [
         "Laravel",
@@ -13,7 +13,13 @@
             "name": "João Oliveira",
             "email": "joao@joliveira.pt",
             "homepage": "https://joliveira.pt",
-            "role": "Developer"
+            "role": "Original Developer"
+        },
+        {
+            "name": "João Oliveira",
+            "email": "joao@joliveira.pt",
+            "homepage": "https://joliveira.pt",
+            "role": "Maintainer"
         }
     ],
     "require": {
@@ -31,13 +37,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "jfvoliveira\\BladeBoxicons\\BladeBoxiconsServiceProvider"
+                "MallardDuck\\BladeBoxicons\\BladeBoxiconsServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "jfvoliveira\\BladeBoxicons\\": "src/"
+            "MallardDuck\\BladeBoxicons\\": "src/"
         }
     },
     "autoload-dev": {
@@ -46,5 +52,8 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
 }

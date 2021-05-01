@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests;
 
 use BladeUI\Icons\BladeIconsServiceProvider;
-use jfvoliveira\BladeBoxicons\BladeBoxiconsServiceProvider;
+use MallardDuck\BladeBoxicons\BladeBoxiconsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class CompilesIconsTest extends TestCase
