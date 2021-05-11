@@ -7,6 +7,49 @@ All notable changes to this project will be documented in this file.
 - A new update generator script to sync the icons with upstream.
 - A rather large number of new icons in all groups.
 
+#### New Icons
+##### Logo
+- Blender
+- C++
+- Django
+- Firebase
+- Google Cloud
+- Kubernetes
+- Markdown
+- MS Teams
+- OK.ru
+- Python
+- Spring Boot
+- Tux (Linux penguin)
+- Zoom
+
+##### Regular
+- Bookmark minus
+- Bookmark plus
+- Bookmark (plain)
+- Bookmark heart
+- Category (main/alt)
+- Expanded alt
+- Library
+- Movie play
+- Sort alt 2
+- Tag alt
+- Trip
+
+##### Solid
+- Bookmark minus
+- Bookmark plus
+- Bookmark (plain)
+- Bookmark heart
+- Category (main/alt)
+- face mask
+- Movie play
+- Tag alt
+- Tv
+- User-account
+- Virus block
+- Virus
+
 ### Updated
 - Some code for existing SVG icons that were updated upstream.
 

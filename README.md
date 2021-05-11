@@ -1,6 +1,6 @@
 # Blade Boxicons
 
-A package to easily make use of [Boxicons](https://github.com/atisawd/boxicons) in your Laravel Blade views.
+A package to easily make use of [Boxicons](https://github.com/atisawd/boxicons) in your Laravel Blade views. The current release is based on Boxicons `2.0.7`.
 
 For a full list of available icons see [the SVG directory](resources/svg) or preview them at [boxicons.com](https://boxicons.com/). Boxicons are originally developed by [Atisa](https://github.com/atisawd).
 
@@ -14,6 +14,7 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 ```bash
 composer require mallardduck/blade-boxicons
 ```
+See on: [Packagist](https://packagist.org/packages/mallardduck/blade-boxicons)
 
 ## Usage
 
@@ -67,12 +68,12 @@ Blade Boxicons uses Blade Icons under the hood. Please refer to [the Blade Icons
 
 ## Changelog
 
-Check out the [CHANGELOG](CHANGELOG.md) in this repository for all the recent changes.
+Check out the [CHANGELOG](CHANGELOG.md) for all the recent changes.
 
 ## Maintainers
 
-Blade Boxicons was originally developed and maintained by [João Oliveira](https://joliveira.pt).
-This fork has been adopted by [Dan Pock](https://opendor.me/@mallardduck).
+This version of Blade Boxicons has been adopted by [Dan Pock](https://opendor.me/@mallardduck).  
+Tho the original Blade Boxicons was originally developed and maintained by [João Oliveira](https://joliveira.pt).
 
 Blade Icons is developed and maintained by [Dries Vints](https://driesvints.com).
 

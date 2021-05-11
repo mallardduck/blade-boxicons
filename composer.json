@@ -58,7 +58,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "test": "vendor/bin/phpunit",
-        "generate": "npm install && php ./generate"
+        "generate": "npm install && php ./generate",
+        "test": "vendor/bin/phpunit"
     }
 }

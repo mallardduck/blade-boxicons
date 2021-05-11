@@ -11,3 +11,5 @@
 /build              export-ignore
 /generator          export-ignore
 /generate           export-ignore
+/package.json       export-ignore
+/package-lock.json  export-ignore
