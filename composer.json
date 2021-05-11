@@ -50,7 +50,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests"
+            "MallardDuck\\BladeBoxicons\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
