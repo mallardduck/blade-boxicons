@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests;
+namespace MallardDuck\BladeBoxicons\Tests;
 
 use BladeUI\Icons\BladeIconsServiceProvider;
 use MallardDuck\BladeBoxicons\BladeBoxiconsServiceProvider;
