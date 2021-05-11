@@ -24,6 +24,12 @@ class GenerateCommand extends Command
         '/solid',
     ];
 
+    const TYPE_MAP = [
+        'logos' => 'l',
+        'regular' => null,
+        'solid' => 's',
+    ];
+
     protected static $defaultName = "generate";
 
     public function __construct(string $name = null)
@@ -65,6 +71,7 @@ class GenerateCommand extends Command
 
     private function getDirectoryFileList(string $dirPath): array
     {
+        $prefix = sprintf("bx%s-", self::TYPE_MAP[Str::afterLast($dirPath, DIRECTORY_SEPARATOR)]);
         // Scan for files...
         $filesList = scandir($dirPath);
         // Shift out the "." and ".." items.
@@ -73,7 +80,7 @@ class GenerateCommand extends Command
 
         // modify things to a tuple:
         $filesList = collect($filesList)
-            ->map(static fn($value) => [$value, Str::after($value, 'bxl-')]);
+            ->map(static fn($value) => [$value, Str::after($value, $prefix)]);
 
         return $filesList->toArray();
     }
