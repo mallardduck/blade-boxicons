@@ -1,0 +1,25 @@
+{
+  "name": "blade-boxicons",
+  "version": "2.0.2",
+  "description": "A package to easily make use of [Boxicons](https://github.com/atisawd/boxicons) in your Laravel Blade views.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallardduck/blade-boxicons.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mallardduck/blade-boxicons/issues"
+  },
+  "homepage": "https://github.com/mallardduck/blade-boxicons#readme",
+  "dependencies": {
+    "boxicons": "^2.0.7"
+  }
+}

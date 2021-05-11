@@ -6,19 +6,19 @@
         "Boxicons",
         "Blade UI Kit"
     ],
-    "homepage": "https://github.com/jfvoliveira/blade-boxicons",
+    "homepage": "https://github.com/mallardduck/blade-boxicons",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Dan Pock",
+            "homepage": "https://danpock.me",
+            "role": "Maintainer"
+        },
         {
             "name": "João Oliveira",
             "email": "joao@joliveira.pt",
             "homepage": "https://joliveira.pt",
             "role": "Original Developer"
-        },
-        {
-            "name": "Dan Pock",
-            "homepage": "https://danpock.me",
-            "role": "Maintainer"
         }
     ],
     "require": {
@@ -31,7 +31,8 @@
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^8.0 || ^9.0"
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "symfony/console": "^5.2"
     },
     "config": {
         "sort-packages": true
@@ -50,6 +51,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "MallardDuck\\BladeBoxicons\\Generator\\": "generator/",
             "MallardDuck\\BladeBoxicons\\Tests\\": "tests"
         }
     },
