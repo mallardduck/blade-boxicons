@@ -44,6 +44,7 @@ class GenerateCommand extends Command
             $output->writeln("The node_modules folder doesn't exist");
             return Command::FAILURE;
         }
+        $this->ensureDirExists(self::$baseDir . self::TMP_DEST_BASE);
 
         $output->writeln("Starting to discover source SVGs...");
 
@@ -56,6 +57,10 @@ class GenerateCommand extends Command
             $this->updateSvgs($type, $fileTransformationList);
             $output->writeln("Completed processing for {$type} svgs.");
         }
+
+        $output->writeln("Cleaning up the build directory...");
+        $this->deleteDirectory(self::$baseDir . self::TMP_DEST_BASE);
+        $output->writeln("Done!");
 
         return Command::SUCCESS;
     }
@@ -122,5 +127,13 @@ class GenerateCommand extends Command
         $svgElement->setAttribute('stroke', 'none');
         $svgElement->setAttribute('viewBox', '0 0 24 24');
         $doc->save($tempFile);
+    }
+
+    private function deleteDirectory(string $directory) {
+        $files = array_diff(scandir($directory), array('.','..'));
+        foreach ($files as $file) {
+            (is_dir("$directory/$file")) ? $this->deleteDirectory("$directory/$file") : unlink("$directory/$file");
+        }
+        return rmdir($directory);
     }
 }
