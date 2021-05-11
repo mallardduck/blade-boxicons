@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## 2.0.0 - 2021-05-01
+## 2.1.0 (2021-05-11)
+### Added
+- A new update generator script to sync the icons with upstream.
+- A rather large number of new icons in all groups.
+
+### Updated
+- Some code for existing SVG icons that were updated upstream.
+
+## 2.0.0 - 2.0.2 (2021-05-01)
 ### Added
 - Support for PHP 8.0.
 

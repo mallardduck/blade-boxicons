@@ -8,3 +8,6 @@
 /.gitignore         export-ignore
 /phpunit.xml        export-ignore
 /tests              export-ignore
+/build              export-ignore
+/generator          export-ignore
+/generate           export-ignore
