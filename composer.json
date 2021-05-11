@@ -21,6 +21,12 @@
             "role": "Original Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/danpock/GitProjects/blade-icons"
+        }
+    ],
     "require": {
         "php": "^7.4 || ^8.0",
         "blade-ui-kit/blade-icons": "^1.0.0",

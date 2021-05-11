@@ -7,7 +7,7 @@ use MallardDuck\BladeBoxicons\Generator\Command\GenerateCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application('bbi-updater', '1.0.0');
-$command = new GenerateCommand();
+$command = new GenerateCommand('Generate blade-boxicons');
 $application->add($command);
 $application->setDefaultCommand($command->getName(), true);
 $application->run();
