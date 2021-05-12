@@ -11,13 +11,10 @@ GenerateCommandBuilder::create('blade-boxicons')
     ->fromSourceSvgDirectory('/svg') // Specify a directory, if an npm package isn't set, this can be anywhere
     ->withIconSets([
         IconSetConfig::create('regular')
-            ->setIconSetPrefix('bx-')
             ->setInputFilePrefix('bx-'),
         IconSetConfig::create('logos')
-            ->setIconSetPrefix('bxl-')
             ->setInputFilePrefix('bxl-'),
         IconSetConfig::create('solid')
-            ->setIconSetPrefix('bxs-')
             ->setInputFilePrefix('bxs-'),
     ])
     ->withSvgNormalisation(function (string $tempFilepath, IconSetConfig $iconSet) {
