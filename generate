@@ -4,16 +4,23 @@
 require __DIR__ . '/vendor/autoload.php';
 
 use BladeUI\Icons\Console\GenerateCommandBuilder;
+use BladeUI\Icons\Console\IconSetConfig;
 
 GenerateCommandBuilder::create('blade-boxicons')
     ->fromNpmPackage('boxicons') // Optionally specify an `npm` package to load from
     ->fromSourceSvgDirectory('/svg') // Specify a directory, if an npm package isn't set, this can be anywhere
     ->withIconSets([
-        'regular' => 'bx-',
-        'logos' => 'bxl-',
-        'solid' => 'bxs-',
+        IconSetConfig::create('regular')
+            ->setIconSetPrefix('bx-')
+            ->setInputFilePrefix('bx-'),
+        IconSetConfig::create('logos')
+            ->setIconSetPrefix('bxl-')
+            ->setInputFilePrefix('bxl-'),
+        IconSetConfig::create('solid')
+            ->setIconSetPrefix('bxs-')
+            ->setInputFilePrefix('bxs-'),
     ])
-    ->withSvgNormalisation(function (string $tempFilepath, string $iconSet) {
+    ->withSvgNormalisation(function (string $tempFilepath, IconSetConfig $iconSet) {
         $doc = new DOMDocument();
         $doc->load($tempFilepath);
         /**
