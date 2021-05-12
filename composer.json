@@ -23,7 +23,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "blade-ui-kit/blade-icons": "^1.0.0",
+        "blade-ui-kit/blade-icons": "dev-abstract-generator-command",
         "illuminate/support": "^8.0"
     },
     "replace": {
@@ -57,8 +57,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "/Users/danpock/GitProjects/blade-icons"
+            "type": "vcs",
+            "url": "https://github.com/mallardduck/blade-icons"
         }
     ],
     "minimum-stability": "dev",
