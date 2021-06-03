@@ -64,7 +64,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "generate": "npm install && php ./generate",
+        "generate": "npm install && php ./vendor/bin/blade-icons-generate",
         "test": "vendor/bin/phpunit"
     }
 }

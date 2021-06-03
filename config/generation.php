@@ -1,14 +1,11 @@
-#!/usr/bin/env php
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+use BladeUI\Icons\Generation\IconGenerator;
+use BladeUI\Icons\Generation\IconSetConfig;
 
-use BladeUI\Icons\Console\GenerateCommandBuilder;
-use BladeUI\Icons\Console\IconSetConfig;
-
-GenerateCommandBuilder::create('blade-boxicons')
-    ->fromNpmPackage('boxicons') // Optionally specify an `npm` package to load from
-    ->fromSourceSvgDirectory('/svg') // Specify a directory, if an npm package isn't set, this can be anywhere
+return IconGenerator::create('blade-boxicons')
+    ->fromNPM('boxicons') // Optionally specify an `npm` package to load from
+    ->directory('/svg') // Specify a directory, if an npm package isn't set, this can be anywhere
     ->withIconSets([
         IconSetConfig::create('regular')
             ->setInputFilePrefix('bx-'),
@@ -34,5 +31,4 @@ GenerateCommandBuilder::create('blade-boxicons')
 
         $svgLine = trim(file($tempFilepath)[1]);
         file_put_contents($tempFilepath, $svgLine);
-    })
-    ->run();
+    });
