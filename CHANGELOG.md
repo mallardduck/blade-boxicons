@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2.1.1 (2021-06-25)
+### Changed
+- Swapped out local generator script to upstream generator from blade-icons.
+
 ## 2.1.0 (2021-05-11)
 ### Added
 - A new update generator script to sync the icons with upstream.
