@@ -23,13 +23,14 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "blade-ui-kit/blade-icons": "^1.0.0",
+        "blade-ui-kit/blade-icons": "^1.1.0",
         "illuminate/support": "^8.0"
     },
     "replace": {
         "jfvoliveira/blade-boxicons": "1.1.2"
     },
     "require-dev": {
+        "ext-dom": "*",
         "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^8.0 || ^9.0",
         "symfony/console": "^5.2"
@@ -51,14 +52,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "MallardDuck\\BladeBoxicons\\Generator\\": "generator/",
             "MallardDuck\\BladeBoxicons\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "generate": "npm install && php ./generate",
+        "generate": "npm install && php ./vendor/bin/blade-icons-generate",
         "test": "vendor/bin/phpunit"
     }
 }
