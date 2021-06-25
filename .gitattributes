@@ -4,12 +4,11 @@
 *.svg               text
 
 # Ignore all test and documentation with "export-ignore".
-/.gitattributes     export-ignore
-/.gitignore         export-ignore
-/phpunit.xml        export-ignore
-/tests              export-ignore
-/build              export-ignore
-/generator          export-ignore
-/generate           export-ignore
-/package.json       export-ignore
-/package-lock.json  export-ignore
+/.gitattributes           export-ignore
+/.gitignore               export-ignore
+/phpunit.xml              export-ignore
+/tests                    export-ignore
+/build                    export-ignore
+/config                   export-ignore
+/package.json             export-ignore
+/package-lock.json        export-ignore
