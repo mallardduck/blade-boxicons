@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2.1.2 (2021-09-03)
+### Updated
+- Switched source from boxicons 2.0.7 up to 2.0.9
+
+### Added
+- Brand Icons:
+  - AWS icon
+  - Discord Alt icon
+  - Docker icon
+  - Flutter icon
+  - Mastodon icon
+  - PHP icon
+  - Sketch icon
+  - Steam icon
+  - TailwindCSS icon
+  - Tiktok icon
+  - Trip Advisor icon
+  - Unity icon
+  - Visual Studio icon
+- Regular and Solid:
+  - Checkbox Minus icon
+  - Phone off icon
+  - Podcast icon
+  - Podcast icon
+  - QR Scan icon
+  - QR icon
+  - Registered icon
+  - Speaker icon
+
+### Modified
+- Too many to list; check the diff
+
 ## 2.1.1 (2021-06-25)
 ### Changed
 - Swapped out local generator script to upstream generator from blade-icons.
