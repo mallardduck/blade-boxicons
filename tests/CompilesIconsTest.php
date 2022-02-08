@@ -7,7 +7,6 @@ namespace MallardDuck\BladeBoxicons\Tests;
 use BladeUI\Icons\BladeIconsServiceProvider;
 use MallardDuck\BladeBoxicons\BladeBoxiconsServiceProvider;
 use Orchestra\Testbench\TestCase;
-use Spatie\Snapshots\Drivers\HtmlDriver;
 use Spatie\Snapshots\MatchesSnapshots;
 
 class CompilesIconsTest extends TestCase
