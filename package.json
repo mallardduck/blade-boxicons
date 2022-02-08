@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/mallardduck/blade-boxicons#readme",
   "dependencies": {
-    "boxicons": "^2.0.9"
+    "boxicons": "^2.1.1"
   }
 }
