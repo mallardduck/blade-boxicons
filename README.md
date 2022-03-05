@@ -4,6 +4,10 @@ A package to easily make use of [Boxicons](https://github.com/atisawd/boxicons) 
 
 For a full list of available icons see [the SVG directory](resources/svg) or preview them at [boxicons.com](https://boxicons.com/). Boxicons are originally developed by [Atisa](https://github.com/atisawd).
 
+## A message to Russian 🇷🇺 people
+
+If you currently live in Russia, please read [this message](./ToRussianPeople.md).
+
 ## Requirements
 
 - PHP 7.4 or higher
