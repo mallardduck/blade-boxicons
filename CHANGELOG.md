@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2.3.0 (2022-07-08)
+### Updated
+- Switched to boxicons 2.1.2 and regenerate
+
 ## 2.2.0 (2022-02-08)
 ### Added
 - Support for Laravel 9
